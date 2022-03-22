@@ -10,6 +10,13 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js">
     </script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/a076d05399.js">
+    </script>
+    <style type="text/css">
+      .btn_modal_bs4{
+    		display: none;
+    	}
+    </style>
     <title>
       Document
     </title>
@@ -34,13 +41,13 @@
         Navbar text
       </span>
     </nav>
-    <div class="container-fluid">
+    <div class="container-fluid pb-4 pt-4">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit quam eligendi adipisci deserunt illum delectus labore, saepe tempora animi et vel sed velit in, illo fugiat, culpa sequi!	Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit quam eligendi adipisci deserunt illum delectus labore, saepe tempora animi et vel sed velit in, illo fugiat, culpa sequi!	Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit quam eligendi adipisci deserunt illum delectus labore, saepe tempora animi et vel sed velit in, illo fugiat, culpa sequi!	Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit quam eligendi adipisci deserunt illum delectus labore, saepe tempora animi et vel sed velit in, illo fugiat, culpa sequi!	Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nam suscipit quam eligendi adipisci deserunt illum delectus labore, saepe tempora animi et vel sed velit in, illo fugiat, culpa sequi!
     </div>
     <div class="container-fluid">
       <div class="row">
         <div class="col-3">
-          <ul class="list-group">
+          <ul class="list-group li_elemento">
             <li class="list-group-item d-flex justify-content-between align-items-center">
               Inbox
               <span class="badge badge-primary badge-pill">
@@ -61,20 +68,20 @@
             </li>
           </ul>
         </div>
-        <div class="col">
-          col-6
-        </div>
-        <div class="col">
-          col
+        <div class="col-9">
+          <h3>
+            titulo
+          </h3>
+          <p>
+          </p>
+          <i class="fas fa-pencil-alt">
+          </i>
         </div>
       </div>
     </div>
     <div class="container-fluid">
-      <h2>
-        Large Modal
-      </h2>
       <!-- Button to Open the Modal -->
-      <button class="btn btn-primary" data-target="#myModal" data-toggle="modal" type="button">
+      <button class="btn btn-primary btn_modal_bs4" data-target="#myModal" data-toggle="modal" type="button">
         Open modal
       </button>
       <!-- The Modal -->
@@ -91,7 +98,7 @@
               </button>
             </div>
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body cuerpo">
               Modal body..
             </div>
             <!-- Modal footer -->
@@ -104,5 +111,7 @@
         </div>
       </div>
     </div>
+    <script src="./js/index.js" type="text/javascript">
+    </script>
   </body>
 </html>
